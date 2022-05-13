@@ -5,7 +5,7 @@ Além do usuário ter a possibilidade de entrar em contato por meio de formulár
 
 ## 🚀 Finalidade
 
-No jogo, é possível escolher um dos personagens disponíveis ( Lara, Alice e Leonard). Cada um com suas habilidades destacadas. A partir daí, o usuário deverá através de um botão escolher o destino de cada personagem.
+Frontenders é uma plataforma de mentoria/suporte para desenvolvedores nas mais diversas tecnologias usadas por desenvolvedores Front-End de aplicações Web/Mobile.
 
 
 ## 📋 Tecnologias utilizadas
@@ -20,14 +20,17 @@ No jogo, é possível escolher um dos personagens disponíveis ( Lara, Alice e L
 
 ## 📦 Desenvolvimento
 
-Utilizei como base as aulas e códigos demostrados em aulas do curso. 
+- [@mariadfporto](https://www.github.com/mariadfporto)
+- [@amandaalexandre](https://www.github.com/amandaalexandre)
+- [@williamfirmino92](https://www.github.com/williamfirmino92)
+- [@maurocmendes](https://www.github.com/maurocmendes)
 
-📌 Link do site aonde extrai as fotos do fundo : https://unsplash.com/
 
-📌 Link do site aonde extrai as fotos dos personagens: https://www.gratispng.com/
+📌 Link do site aonde extraimos as fotos : https://unsplash.com/
 
 
-## 📄 O Jogo
+
+## 📄 O Site
 
 ![image](https://user-images.githubusercontent.com/89873481/168308283-f9b9af94-4b4b-4797-8c51-7876b58499e9.png)
 ![image](https://user-images.githubusercontent.com/89873481/168308426-bc593e58-dbb5-436e-8c25-4d4395997311.png)
@@ -37,7 +40,7 @@ Utilizei como base as aulas e códigos demostrados em aulas do curso.
 
 
 
-📌 Link do projeto no github Pages: https://williamfirmino92.github.io/05.Projeto-JOGO-BHS-WF-/
+📌 Link do projeto no github Pages: https://williamfirmino92.github.io/08.Projeto-Frontenders-WF-/
  
 
 
