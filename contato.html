@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contato - Front Enders</title>
+
+  <!-- Links do Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<!-- Links -->
+
+  <link rel="shortcut icon" href="./img/icones/cima.png" type="image/x-icon">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" href="./css/contato.css">
+ <script>document.documentElement.classList.add('js');</script>
+  
+  <!-- Fontes Utilizadas no site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+    <!-- ___________________________________________________________________________________________________ -->
+    <header class="header-bg">
+      <div class="header container">
+         <a href="index.html">
+          <img src="./img/icones/logo.jpg" width="200" height="32" alt="FrontEnders">
+        </a>
+      <nav aria-label="primaria">
+      <ul class="nav header-menu">
+        <li class="nav-item">
+          <a class="nav-link " href="servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastro.html">Cadastro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+    </header>
+
+ <!-- Contato ___________________________________________________________________________________________________ -->
+
+    <main>
+      <div class="titulo-bg">
+        <div class="titulo container">
+          <p class="fadeInDown"data-anime="100">Respostas em até 2h</p>
+          <h1 class="fadeInDown"data-anime="300">fale conosco<span class="ponto">.</span></h1>
+        </div>
+      </div>
+
+    <div class="contato container fadeInDown"data-anime="200">
+  <section class="contato-dados" aria-label="Endereço">
+    <h2>Nossos Contatos</h2>
+    <div class="contato-endereco">
+      <p>Avenida Paulista, 411 - </p>
+      <p>Bela Vista - SP</p>
+    </div>
+    <address class="contato-meios">
+      <a href="mailto:contato@frontenders.com.br">contato@frontenders.com.br</a>
+      <a href="tel:+551199999999">+55 11 9999-9999</a>
+    </address>
+    <div class="contato-redes">
+      <a href="./">
+        <img src="./img/redes/instagram.png" width="32" height="32" alt="Instagram">
+      </a>
+      <a href="./">
+        <img src="./img/redes/facebook.png" width="32" height="32" alt="Facebook">
+      </a>
+      <a href="./">
+        <img src="./img/redes//youtube.png" width="32" height="32" alt="Youtube">
+      </a>
+    </div>
+  </section>
+  <section class="contato-formulario" aria-label="Formulário">
+    <form class="form" action="./enviar.php" method="post">
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome">
+      </div>
+      <div>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(11) 9999-9999">
+      </div>
+      <div class="col-2">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+      </div>
+      <div class="col-2">
+        <label for="mensagem">Mensagem</label>
+        <textarea rows="5" id="mensagem" name="mensagem" placeholder="Desreva sua solicitação"></textarea>
+      </div>
+      <button type="button" class="btn btn-warning btn-lg" style="color: black;"> Enviar Mensagem</button>
+      </div>
+    </form>
+  </section>
+</div>
+</main>
+
+<div class="titulo-bg">
+  <div class="titulo container">
+    <h1 class="fadeInDown"data-anime="300">Nossa equipe<span class="ponto">.</span></h1>
+  </div>
+</div>
+
+  <main class="fadeInDown equipe"data-anime="600">
+    <div class="equipe container" >
+      <div class="equipe-imagem">
+        <img src="./img/fotos/amanda.jpg" alt="Foto professor">
+      </div>
+      <div class="equipe-conteudo">
+        <h2 class="font-1-xl" >Amanda Alexandre</h2>
+        <ul class="font-1-m cor-8">
+          <li>
+            <img src="./img/icones/linkedin.png" alt="">
+            amanda-vieira-016468211/
+          </li>
+          <li>
+            <img src="./img/redes/instagram.png" alt="">
+            Desenvolver back end
+          </li>
+          <li>
+            <img src="./img/icones/github.png" alt="">
+            @amandaalexandre
+          </li>
+          <li>
+            <img src="./img/icones/front.png" alt="">
+            Desenvolvedor full stack
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="equipe-bg">
+      <div class="equipe container">
+        <div class="equipe-imagem">
+          <img src="./img/fotos/william.jpg" alt="Foto professor">
+        </div>
+        <div class="equipe-conteudo">
+          <h2 class="font-1-xl cor-0">José William</h2>
+          <ul class="font-1-m cor-5">
+            <li>
+              <img src="./img/icones/linkedin.png" alt="">
+              william-firmino-87a2ba80/
+            </li>
+            <li>
+              <img src="./img/redes/instagram.png" alt="">
+              Desenvolver back end
+            </li>
+            <li>
+              <img src="./img/icones/github.png" alt="">
+              @williamfirmino92
+            </li>
+            <li>
+              <img src="./img/icones/front.png" alt="">
+              Desenvolvedor full stack
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="equipe container">
+      <div class="equipe-imagem">
+        <img src="./img/fotos/duda.jpeg" alt="Foto professor">
+      </div>
+      <div class="equipe-conteudo">
+        <h2 class="font-1-xl">Maria Eduarda</h2>
+        <ul class="font-1-m cor-8">
+          <li>
+            <img src="./img/icones/linkedin.png" alt="">
+            maria-eduarda-frota/
+          </li>
+          <li>
+            <img src="./img/redes/instagram.png" alt="">
+            Desenvolver back end
+          </li>
+          <li>
+            <img src="./img/icones/github.png" alt="">
+            @mariadfporto
+          </li>
+          <li>
+            <img src="./img/icones/front.png" alt="">
+            Desenvolvedor full stack
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="equipe-bg">
+      <div class="equipe container">
+        <div class="equipe-imagem">
+          <img src="./img/fotos/mauro.jpeg" alt="Foto professor">
+        </div>
+        <div class="equipe-conteudo">
+          <h2 class="font-1-xl cor-0">Mauro Mendes</h2>
+          <ul class="font-1-m cor-5">
+            <li>
+              <img src="./img/icones/linkedin.png" alt="">
+              maurocmendes/
+            </li>
+            <li>
+              <img src="./img/redes/instagram.png" alt="">
+              Desenvolver back end
+            </li>
+            <li>
+              <img src="./img/icones/github.png" alt="">
+              @maurocmendes
+            </li>
+            <li>
+              <img src="./img/icones/front.png" alt="">
+              Desenvolvedor full stack
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+
+   <!-- Footer ___________________________________________________________________________________________________ -->
+   <footer class="footer-bg">
+    <div class="footer container">
+      <a href="index.html">
+      <img src="./img/icones/logobaixo.svg" width="200" height="40" alt="Logo FrontEnders">
+      </a>
+      <div class="footer-contato">
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="tel:+551199999999">+55 11 9999-9999</a></li>
+          <li><a href="mailto:contato@frontenders.com.br">contato@frontenders.com.br</a></li>
+          <li>Avenida Paulista, 411 - Bela Vista</li>
+          <li>São Paulo - SP</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="./">
+            <img src="./img/redes/instagram.png" width="32" height="32" alt="Instagram">
+          </a>
+          <a href="./">
+            <img src="./img/redes/facebook.png" width="32" height="32" alt="Facebook">
+          </a>
+          <a href="./">
+            <img src="./img/redes/youtube.png" width="32" height="32" alt="Youtube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3>Informações</h3>
+        <nav>
+          <ul>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="termos.html">Termos e Condições</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-copy">FrontEnders © Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+<script src="./js/plugins/simple-anime.js"></script>
+<script src="./js/script.js"></script>
+</html>

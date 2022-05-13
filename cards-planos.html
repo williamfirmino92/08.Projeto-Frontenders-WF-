@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front Enders - Plataforma Completa</title>
+  <link rel="stylesheet" href="css/servicos.css">
+ 
+   <!-- Iniciando o Bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ 
+   <!-- JS do FAQ e jQuery-->
+   <script src="planos.js" defer></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+
+  <!-- Fontes Utilizadas no site -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- ___________________________________________________________________________________________________ -->
+  <header class="header-bg">
+    <div class="header container">
+     
+       <a href="./">
+        <img src="./img/logo.jpg" width="200" height="32" alt="FrontEnders">
+      </a>
+
+      <nav aria-label="primaria">
+        <ul class="header-menu">
+          <li class="nav-link"><a href="./servicos.html">Serviços</a></li>
+            <li class="nav-link"><a href="./cadastro.html">Cadastro</a></li>
+          <li class="nav-link"><a href="contato.html">Contato</a></li>
+          <li class="nav-link"><a href="./login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ___________________________________________________________________________________________________ --> 
+
+  <!-- Apague essa frase abaixo :). Boa diversão, rsrs. -->
+  <div class="cards-planos col-12">
+  <h1 class="titulo-semi-amarelo">planos<h1> 
+
+    <div class="row">
+    <div class="plano-item col-md-5 col-sm-11 rounded" id="card1">
+      <h3 class="plano-titulo">PRATA</h3>
+      <span class="plano-valor">R$ 199 <span class="plano-mes">mensal</span></span>
+      <ul>
+        <li>5 horas de mentoria e feedback por semana</li>
+        <li>Acesso a todos os cursos</li>
+        <li>Suporte 24h</li>
+        <li>Desconto em parceiros</li>
+      </ul>
+
+      <div class="btn btn-warning botao-amarelo" href="cadastro.html">Inscreva-se</div>
+
+    </div>
+
+    <div class="plano-item col-md-5 col-sm-11 rounded" id="card2">
+      <h3 class="plano-titulo">OURO</h3>
+      <span class="plano-valor">R$ 299 <span class="plano-mes">mensal</span></span>
+      <ul>
+        <li>10 horas de feedback/mentoria por semana</li>
+        <li>Assistência especial</li>
+        <li>Suporte 24h</li>
+        <li>Acesso ao servidor do Discord</li>
+        <li>Desconto em parceiros</li>
+        <li>Acesso ao Clube FrontEnders</li>
+      </ul>
+      <div class="btn btn-warning botao-amarelo" href="cadastro.html">Inscreva-se</div>
+    </div>
+  </div>
+</div>
+    <!-- Footer -->
+    <!-- ___________________________________________________________________________________________________ --> 
+  <footer class="footer-bg">
+    <div class="footer container">
+      <img src="./img/logobaixo.svg" width="200" height="40" alt="Logo FrontEnders">
+      <div class="footer-contato">
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="tel:+551199999999">+55 11 9999-9999</a></li>
+          <li><a href="mailto:contato@frontenders.com">contato@frontenders.com</a></li>
+          <li>Avenida Paulista, 411 - Bela Vista</li>
+          <li>São Paulo - SP</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="./">
+            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
+          </a>
+          <a href="./">
+            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
+          </a>
+          <a href="./">
+            <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3>Informações</h3>
+        <nav>
+          <ul>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="termos.html">Termos e Condições</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-copy">FrontEnders © Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Front Enders - Plataforma Completa</title>
+
+ <!-- Iniciando o Bootstrap -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="css/cadastro.css">
+
+ <!-- Links  -->
+ <link rel="stylesheet" href="./css/animacao.css">
+ <link rel="shortcut icon" href="./img/icones/cima.png" type="image/x-icon">
+ <script>document.documentElement.classList.add('js');</script>
+
+  <!-- Font Awesome para os ícones -->
+  <script src="https://kit.fontawesome.com/241e2059a9.js" crossorigin="anonymous"></script>
+
+  <!-- Ícones de programação -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+   <!-- Fontes Utilizadas no site -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <!-- JavaScript -->
+  <script src="viacep.js" type="module" defer></script>
+  <script src="cadastro.js" defer></script>
+</head>
+
+<body>
+    <!-- Deixando o site responsivo -->
+
+    <!-- Header -->
+    <!-- ___________________________________________________________________________________________________ -->
+    <header class="header-bg">
+      <div class="header container">
+         <a href="index.html">
+          <img src="./img/icones/logo.jpg" width="200" height="32" alt="FrontEnders">
+        </a>
+      <nav aria-label="primaria">
+      <ul class="nav header-menu">
+        <li class="nav-item">
+          <a class="nav-link " href="servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cadastro.html">Cadastro</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+    </header>
+  <!-- ___________________________________________________________________________________________________ --> 
+    
+          <!-- Aqui vai o seu conteúdo. -->
+        <div class="barra-topo-preto">
+
+        </div>
+
+        <!-- <div class="enchimento-branco"> -->
+      
+        <div class="container-form col-md-12 col-sm-12 container fadeInDown" data-anime="200">
+          <div class="row">
+          <div class="topo-transparente col-md-12">
+            <h3>ENTRE PRA LISTA DE ESPERA</h3>
+            <H1 CLASS="titulo-semi-amarelo">faça seu cadastro</H1>
+          </div>
+        </div>
+
+          <div class="row no-gutters">
+            <div class="col-md-4">
+            <div class="sidebar-preto rounded-left">
+              <h3>PRODUTO</h3>
+              <br>
+              <button class="btn col-md-4 text-left botao-pequeno botao-plano">
+<span class="nome-botao">
+  Plano</span>
+
+</button>
+
+<button class="btn col-md-7 text-left botao-pequeno botao-pacote">
+Pacote avulso
+</button>
+
+              <br><br>
+
+              <h3>ESCOLHA O PLANO</h3>
+              <br>
+              <!-- Card plano prata -->
+              <div class="btn col-12 text-left botao-grande" id="botao-plano-prata">
+                Plano prata
+              </div>
+            
+              <div class="card card-plano-prata">
+                <div class="card-body">
+                <h4 class="card-title">R$ 99</h4>
+                <ul class="list-group">
+                  <li class="list-group-item">5 horas de sessões de feedback</li>
+                  <li class="list-group-item">Acesso à plataforma de cursos</li>
+                </ul>
+              </div>
+              </div>
+            
+              <br>
+              <!-- Card plano ouro -->
+              <div class="btn col-12 text-left botao-grande" id="botao-plano-ouro">
+                 Plano ouro
+                </div>
+              
+            
+
+            <div class="card card-plano-ouro">
+              <div class="card-body">
+              <h4 class="card-title">R$ 199</h4>
+              <ul class="list-group">
+                <li class="list-group-item">10 horas de sessões de feedback</li>
+                <li class="list-group-item">Acesso à plataforma de cursos</li>
+                <li class="list-group-item">Roadmaps e diagnósticos individualizados</li>
+              </ul>
+            </div>
+            </div>
+   
+            <br>
+              <!-- Card pacote prata -->
+              <div class="btn col-12 text-left botao-grande" id="botao-pacote-prata">
+                
+                    Pacote prata</label>
+               
+              </div>
+          
+            <div class="card card-pacote-prata">
+              <div class="card-body">
+              <h4 class="card-title">R$ 99</h4>
+              <ul class="list-group">
+                <li class="list-group-item">5 horas de sessões de feedback</li>
+              </ul>
+            </div>
+            </div>
+     
+            <br>
+              <!-- Card pacote ouro -->
+              <div class="btn col-12 text-left botao-grande" id="botao-pacote-ouro">
+                
+                    Pacote ouro</label>
+               
+              </div>
+            
+            <div class="card card-pacote-ouro">
+              <div class="card-body">
+              <h4 class="card-title">R$ 199</h4>
+              <ul class="list-group">
+                <li class="list-group-item">10 horas de sessões de feedback</li>
+              </ul>
+            </div>
+            </div>
+         
+
+            </div>
+          </div>
+
+
+          <div class="col-md-6">
+
+            <div class="form-main rounded-right">
+              
+              <h3>SEUS DADOS</h3>
+              <br>
+              <form>
+                <div class="row">
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="nome">Nome</label>
+                  <input type="text" class="form-control" id="nome" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="sobrenome">Sobrenome</label>
+                  <input type="text" class="form-control" id="sobrenome" required>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="cpf">CPF</label>
+                  <input type="text" class="form-control" id="cpf" required maxlength="11">
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="email">E-mail</label>
+                  <input type="text" class="form-control" id="email" required>
+                </div>
+              </div>
+            
+
+              <div class="row">
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="senha">Senha</label>
+                  <input type="password" class="form-control" id="senha" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="csenha">Confirmar senha</label>
+                  <input type="password" class="form-control" id="csenha" required>
+                </div>
+              
+              </div>
+              <br><br>
+              <h3>SEU ENDEREÇO</h3>
+              <br>
+              <DIV CLASS="row">
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="cep">CEP</label>
+                  <input type="text" class="form-control" id="cep" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="numero">Número</label>
+                  <input type="text" class="form-control" id="numero" required>
+                </div>
+              </DIV>
+              <DIV CLASS="row">
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="logradouro">Logradouro</label>
+                  <input type="text" class="form-control" id="endereco" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="bairro">Bairro</label>
+                  <input type="text" class="form-control" id="bairro" required>
+                </div>
+              </DIV>
+              <DIV CLASS="row">
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="cidade">Cidade</label>
+                  <input type="text" class="form-control" id="cidade" required>
+                </div>
+
+                <div class="form-group col-md-6 col-sm-12">
+                  <label for="estado">Estado</label>
+                  <input type="text" class="form-control" id="estado" required>
+                  <div class="dropdown dropdown-menu-right">
+                    <!-- <button class="btn dropdown-toggle col-md-12 text-right"
+                            type="button" id="estado" data-toggle="dropdown">
+                            Selecione
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Acre</a>
+                      <a class="dropdown-item" href="#">Alagoas</a>
+                      <a class="dropdown-item" href="#">Amapá</a>
+                      <a class="dropdown-item" href="#">Amazonas</a>
+                      <a class="dropdown-item" href="#">Bahia</a>
+                      <a class="dropdown-item">Ceará</a>
+                      <a class="dropdown-item">Distrito Federal</a>
+                      <a class="dropdown-item">Espírito Santo</a>
+                      <a class="dropdown-item">Goiás</a>
+                      <a class="dropdown-item">Maranhão</a>
+                      <a class="dropdown-item">Mato Grosso</a>
+                      <a class="dropdown-item">Mato Grosso do Sul</a>
+                      <a class="dropdown-item">Minas Gerais</a>
+                      <a class="dropdown-item">Pará</a>
+                      <a class="dropdown-item">Paraíba</a>
+                      <a class="dropdown-item">Paraná</a>
+                      <a class="dropdown-item">Pernambuco</a>
+                      <a class="dropdown-item">Piauí</a>
+                      <a class="dropdown-item">Rio de Janeiro</a>
+                      <a class="dropdown-item">Rio Grande do Norte</a>
+                      <a class="dropdown-item">Rio Grande do Sul</a>
+                      <a class="dropdown-item">Rondônia</a>
+                      <a class="dropdown-item">Roraima</a>
+                      <a class="dropdown-item">Santa Catarina</a>
+                      <a class="dropdown-item">São Paulo</a>
+                      <a class="dropdown-item">Sergipe</a>
+                      <a class="dropdown-item">Tocantins</a>
+                    </div> -->
+                  </div>
+
+                </div>
+              </DIV>
+              <DIV CLASS="form-inline">
+                <div class="form-check-inline">
+                  <label class="form-check-label" for="termos">
+                    <input class="form-check-input checkbox-customizada" type="checkbox" id="termos" required> 
+                    Li e aceito os &nbsp; <a href="termos.html">termos e condições</a>.
+                  </label>
+                </div>
+              </DIV>
+              <p id="mensagem-erro"></p>
+              <DIV CLASS="row m-3 linha-botao">
+                <button class="btn btn-warning d-block" type="submit" id="botao-enviar">ENVIAR</button>
+              </DIV>
+              </form>
+
+            </div>
+        </div>
+      </div>
+      </div>
+    
+    </div>
+
+    <section class="citacao" aria-label="citacao">
+      <div class="citacao-conteudo">
+        <blockquote>
+          <p>É importante a vontade de aprimorar o conhecimento: Tudo é motivo para aprendizagem e crescimento. Nunca perca a curiosidade e a vontade de progredir, independente de sua idade. 
+          </p>
+        </blockquote>
+        <span>Perfect Liberty</span>
+      </div>
+      <div>
+        <img src="./img/foto-2.jpg" width="1560" height="1360" alt="Foto de um computador">
+      </div>
+      
+    </section>
+
+          <!-- Aqui termina o seu conteúdo. -->
+
+      
+    <!-- Footer -->
+    <!-- ___________________________________________________________________________________________________ --> 
+    <footer class="footer-bg">
+      <div class="footer container">
+        <img src="./img/logobaixo.svg" width="200" height="40" alt="Logo FrontEnders" class="img-responsive">
+        <div class="footer-contato">
+          <h3>Contato</h3>
+          <ul>
+            <li class="nav-item"><a href="tel:+551199999999">+55 11 9999-9999</a></li>
+            <li class="nav-item"><a href="mailto:contato@frontenders.com">contato@frontenders.com</a></li>
+            <li class="nav-item">Avenida Paulista, 411 - Bela Vista</li>
+            <li class="nav-item">São Paulo - SP</li>
+          </ul>
+          <div class="footer-redes">
+            <a href="./">
+              <img src="./img/redes/instagram.png" width="32" height="32" alt="Instagram">
+            </a>
+            <a href="./">
+              <img src="./img/redes/facebook.png" width="32" height="32" alt="Facebook">
+            </a>
+            <a href="./">
+              <img src="./img/redes/youtube.png" width="32" height="32" alt="Youtube">
+            </a>
+          </div>
+        </div>
+        <div class="footer-informacoes">
+          <h3>Informações</h3>
+          <nav>
+            <ul class="nav-flex-column">
+              <li><a href="servicos.html" class="nav-item">Serviços</a></li>
+              <li><a href="cadastro.html" class="nav-item">Cadastro</a></li>
+            <li><a href="contato.html" class="nav-item">Contato</a></li>
+            <li><a href="termos.html" class="nav-item">Termos e Condições</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer-copy">FrontEnders © Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+
+  
+  <!-- JavaScript -->
+  <!-- jQuery, Popper.js, e Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>
