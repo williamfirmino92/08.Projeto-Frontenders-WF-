@@ -1,0 +1,369 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  ul,
+  p,
+  blockquote,
+  dd {
+    margin: 0px;
+  }
+  
+  ul {
+    padding: 0px;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Estilos do Header */
+  .header-bg {
+    background-color: #000000;
+  }
+  
+  .container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .header-menu a {
+    display: inline-block;
+    padding: 16px 0px;
+    position: relative;
+    color: #ffffff;
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+  }
+  
+  .header-menu a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background: #ffbb00;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+  
+  .header-menu a:hover::after,
+  .header-menu a.ativo::after {
+    width: 100%;
+  }
+  
+  @media (max-width: 800px) {
+    .header-menu {
+      gap: 20px;
+    }
+    .header-menu a {
+      background: #000000;
+      padding: 12px 16px;
+      border-radius: 4px;
+    }
+    .header-menu a:hover {
+      background-color: #000000;
+      
+    }
+    .header a:after {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .header-menu {
+      gap: 20px;
+    }
+    .header-menu a {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilos do Footer */
+  .footer-bg {
+    background-color: #000000;
+    color: #b2b2b2;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer a:hover {
+    text-decoration: none;
+  }
+  
+  .footer h3 {
+    margin-bottom: 32px;
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    color:#ffffff;
+  }
+  
+  .footer-contato ul {
+    margin-bottom: 32px;
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+    color: #ffffff;
+  }
+  
+  .footer-contato li:nth-child(even):after {
+    content: "";
+    display: block;
+    max-width: 360px;
+    height: 2px;
+    background: #000000;
+    margin-top: 16px;
+  }
+  
+  .footer-informacoes h3 {
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    color: #ffffff;
+  }
+  
+  .footer li {
+    margin-bottom: 16px;
+    color: #b2b2b2;
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+  }
+  
+  .footer-redes {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .footer a:hover {
+    color: #ffbb00;
+  }
+  
+  .footer-copy {
+    grid-column: 1/-1;
+    margin-top: 40px;
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+    color:#9c9c9c;
+  }
+  
+  @media (max-width: 800px) {
+    .footer > img {
+      display: none;
+    }
+    .footer {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer {
+      grid-template-columns: 1fr;
+      gap: 60px;
+    }
+    .footer-copy {
+      margin-top: 0px;
+    }
+  }
+
+  /* Estilo do conteúdo principal */
+  .botao-amarelo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    height: 40px;
+    width: 250px;
+  }
+
+  .titulo-semi-amarelo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+
+  .titulo-semi-amarelo::after {
+    content: ".";
+    color: #FFBB00;
+  }
+
+  .curso {
+    background-color: #111111;
+    color: #9c9c9c;
+    padding: 2rem;
+    margin-bottom: -8%;
+  }
+
+  .curso h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .curso h1::after {
+    content: "curso.";
+    color: #FFBB00;
+  }
+
+  .imagem-sobreposta {
+    position: relative;
+    top: -50px;
+    z-index: 2;
+  }
+
+  @media (max-width: 1140px) {
+    .curso {
+     padding-bottom: 1rem;
+     margin-bottom: auto;
+    }
+    
+  }
+ 
+  .grid-cursos {
+    padding: 100px 2rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* font-size: 100px; */
+  }
+
+  .grid-cursos > h1 {
+    grid-column: 1/4;
+    text-align: left;
+  }
+
+  .legenda-curso {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .icone-curso {
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .icone-curso:hover {
+    color: #FFBB00;
+  }
+
+  .curso-baixo {
+    background-color: #111111;
+    color: white;
+    padding: 2rem;
+  }
+
+  .curso-baixo h1::after {
+    content: "curso.";
+    color: #FFBB00;
+
+  }
+
+    /* Estilos dos Planos */
+.plano {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  color: #ffffff;
+  font: 600 3rem/1.125 "Poppins", sans-serif;
+}
+
+.plano > h1 {
+grid-column: 1 / 3;
+color: black;
+}
+
+.plano-item {
+  background-color: #000000;
+  padding: 32px 32px 32px 60px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-radius: 4px;
+}
+
+.plano-valor {
+  grid-column: 2 / 3;
+  display: block;
+  text-align: right;
+  color: #ffffff;
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.plano-mes{
+color: #b2b2b2;
+display: block;
+font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.plano-item ul {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+  color:#ffffff;
+}
+
+.plano-item li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.plano-item li + li {
+  margin-top: 20px;
+}
+
+.plano-item li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url("../../img/icones/lista.svg");
+  position: absolute;
+  left: -21px;
+}
+
+@media (max-width: 800px) {
+  .plano {
+    grid-template-columns: 1fr;
+  }
+
+  .plano-item {
+    width: 80%;
+  }
+
+  .plano > h1 {
+    grid-column: 1/2;
+  }
+}
