@@ -29,24 +29,12 @@ Utilizei como base as aulas e códigos demostrados em aulas do curso.
 
 ## 📄 O Jogo
 
-![image](https://user-images.githubusercontent.com/89873481/168280920-7370b328-f007-4734-bb07-885b3f2249e9.png)
+![image](https://user-images.githubusercontent.com/89873481/168308283-f9b9af94-4b4b-4797-8c51-7876b58499e9.png)
+![image](https://user-images.githubusercontent.com/89873481/168308426-bc593e58-dbb5-436e-8c25-4d4395997311.png)
+![image](https://user-images.githubusercontent.com/89873481/168308383-a2c68f38-73ac-49c6-9acd-8f99959dae74.png)
+![image](https://user-images.githubusercontent.com/89873481/168308497-98cd5389-2d22-4cc3-aed6-9cb876e2c02b.png)
 
-Primeira fase – O Cemitério
-Nessa fase, o personagem deverá passar por um cemitério no meio da noite. Só que, os mortos estão voltando a vida e estão sedentos de cérebro. Além disso, são muito rápidos e espertos. Saudades dos zumbis dos filmes.
-Nesse momento, o personagem pode escolher entre o combate direto ou correr e se esconder.
 
-![image](https://user-images.githubusercontent.com/89873481/168281095-1bdcc016-075e-44cf-9206-90f120343c09.png)
-
-Segunda fase – O Rio
-Na segunda fase, após aproveitar para se hidratar um pouco o personagem se depara com um monstro bem na sua frente, uma combinação de sapo girante com cobra. Além disso, a baba do monstro é muito ácida. 
-Novamente, o personagem pode correr e se esconder ou aproveitar um sanduiche que está em sua mochila para alimentar e distrair o monstro.
-
-![image](https://user-images.githubusercontent.com/89873481/168281168-930134b4-cf72-404b-99dd-562430424fbc.png)
-
-Terceira fase – A Floresta
-Na terceira e última fase, o personagem consegue passar pelo temido rio e chega até a floresta escura. Um lugar muito úmido e sombrio. Nesse momento, aparece um ser desconhecido, parece um ser humano com muitos músculos,  mas muito alto e expelindo lava.
-
-![image](https://user-images.githubusercontent.com/89873481/168281206-5f42ad66-ad4e-4e7d-8ff5-1fdb9df5afde.png)
 
 
 📌 Link do projeto no github Pages: https://williamfirmino92.github.io/05.Projeto-JOGO-BHS-WF-/
