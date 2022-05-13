@@ -28,6 +28,9 @@ Frontenders é uma plataforma de mentoria/suporte para desenvolvedores nas mais 
 
 📌 Link do site aonde extraimos as fotos : https://unsplash.com/
 
+Utilizamos o Figma para desenvolvimento do design
+
+![image](https://user-images.githubusercontent.com/89873481/168309527-224604e5-760d-4b70-9503-06b720c59542.png)
 
 
 ## 📄 O Site
