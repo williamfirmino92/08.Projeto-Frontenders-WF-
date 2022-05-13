@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/src/viacep.js" type="module" defer></script>
+    <script src="/src/index-form.js" defer></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">  
+    <link rel="stylesheet" href="/src/index-form.css">  
+    <title>Integração ViaCEP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Integração ViaCEP</h2>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <labe for="username">Nome</labe>
+                <input type="text" placeholder="Joana da Silva" id="name">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="Joanadasilva@gmail.com" id="email">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Senha</label>
+                <input type="password" placeholder="Digite sua senha" id="password"/>
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Digite novamente a sua senha</label>
+                <input type="password" placeholder="Confirme a senha digitada" id="password2"/>
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Data de Nascimento</label>
+                <input type="date" placeholder="15/07/1989" id="nascimento">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">CEP</label>
+                <input type="text" class="esperacep" placeholder="22260-001" id="cep">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Endereço</label>
+                <input type="text" class="esperacep" placeholder="Rua São Clemente" id="endereco">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Número</label>
+                <input type="text" class="esperacep" placeholder="301" id="numero">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Complemento</label>
+                <input type="text" class="esperacep" placeholder="Apartamento" id="complemento">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label>Bairro</label>
+                <input type="text" class="esperacep" placeholder="Botafogo" id="bairro">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label>Cidade</label>
+                <input type="text" class="esperacep" placeholder="Rio de Janeiro" id="cidade">
+                <small>Informação inválida</small>
+            </div>
+            <div class="form-control">
+                <label>Estado</label>
+                <input type="text" class="esperacep" placeholder="Rio de Janeiro" id="estado">
+                <small>Informação inválida</small>
+            </div>
+            <button onclick="checkInputs()">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
