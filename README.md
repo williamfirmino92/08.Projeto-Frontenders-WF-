@@ -2,6 +2,7 @@
 
 O projeto é a conclusão de aprendizados do módulo II da RESÍLIA EDUCAÇÃO. Nele, fomos orientados a estar desenvolvendo um site completo de cursos onde o usuário percorre por várias páginas. No projeto, utilizamos validação de E-MAIL, CPF E CEP(utilizando a api dos correios).
 Além do usuário ter a possibilidade de entrar em contato por meio de formulário. Criamos alguns efeitos em Javascript para dar dinamismo na página.
+Foi o primeiro projeto que desenvolvemos totalmente responsivo.
 
 ## 🚀 Finalidade
 
@@ -40,6 +41,9 @@ Utilizamos o Figma para desenvolvimento do design
 ![image](https://user-images.githubusercontent.com/89873481/168308383-a2c68f38-73ac-49c6-9acd-8f99959dae74.png)
 ![image](https://user-images.githubusercontent.com/89873481/168308497-98cd5389-2d22-4cc3-aed6-9cb876e2c02b.png)
 
+
+## 📄 Versão Mobile
+![image](https://user-images.githubusercontent.com/89873481/168454231-be0411d4-d55b-41eb-a84a-bce5158b79ea.png)
 
 
 
